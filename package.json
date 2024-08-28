@@ -1,0 +1,19 @@
+{
+  "name": "operation-moksh-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "google-translate-api-x": "^10.7.1",
+    "telegraf": "^4.16.3"
+  }
+}
